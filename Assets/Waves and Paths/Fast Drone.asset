@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df1504ddad2ede4db27d69bdfe97607, type: 3}
+  m_Name: Fast Drone
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 6645496283240759688, guid: 4e17f7ccb0ab27f478417dd3ccb64f89, type: 3}
+  pathPrefab: {fileID: 5923706587391725235, guid: a2a84175a25b3c24b8c40c51abbb0368, type: 3}
+  moveSpeed: 5
+  timeBetweenEnemySpawns: 1
+  spawnTimerVariance: 0.5
+  minimumSpawnTime: 0.2
